@@ -1,0 +1,100 @@
+.tsh{
+    position: absolute;
+    width: 650px;
+    height: 250px;
+    left: 300px;
+    top: 0px;
+    background-color:#9a9eac;
+    box-shadow: 1mm;
+    border-radius: 1mm;
+    border-style: double
+     
+}
+
+.poupcls{
+  position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 300px;
+    top: 10px;
+    background-color:#9a9eac;
+    box-shadow: 1mm;
+    border-radius: 1mm;
+    border-style: double
+}
+
+.popwidow{
+  position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 300px;
+    top: 0px;
+    background-color:#9a9eac;
+    box-shadow: 1mm;
+    border-radius: 1mm;
+    border-style: double
+}
+
+.Addtime{
+  position: absolute;
+  font-size:12px;
+  left: 10px;
+  top: -10px;
+
+}
+
+.save{
+position: absolute;
+left: 500px;
+right: 0px;
+top: 200px;
+bottom: 0;
+border-radius: 1mm;
+text-align: center;
+letter-spacing: -0.13px;
+height: 20px;
+}
+
+.date{
+  position: relative;
+  top: -30px;
+  left :250px;
+
+
+}
+
+.time{
+  position: relative;
+  top: -65px;
+  left :450px;
+  
+}
+
+.desc{
+  position: relative;
+  top: -65px;
+  left :0; 
+  
+}
+
+.description{
+  width: 400px;
+  flex-direction: column;
+}
+
+option{
+  text-align: center;
+  padding-left: 15mm;
+}
+
+
+
+.project{
+    width: 200px;
+    height: 25px ;
+   
+}
+
+
+  
+  

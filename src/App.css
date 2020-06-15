@@ -15,14 +15,71 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center ;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.Side-bar {
+  position: absolute;
+  width: 256px;
+  height: 400px;
+  left: 5px;
+  top: 100px;
+  background-color:#9a9eac;
+  box-shadow: 1mm;
+  border-radius: 1mm;
+  border-style: double;
+  
+  }
+.Time{
+  margin : 0;
+  padding-left: 8mm;
+  cursor : pointer;
+  text-align: center;
+
+
+}
+
+
+
+#project{
+position: absolute;
+height: 24px;
+left: 60px;
+right: 44px;
+top: calc(50% - 24px/2);
+}
+
+
+#Account{
+  position: absolute;
+height: 24px;
+left: 60px;
+right: 16px;
+top: calc(50% - 24px/2);
+}
+
+ul{
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height, or 126% */
+
+letter-spacing: -0.3px;
+
+/* aqua/text-dark */
+
+color: #16171A;
+
+}
+
 
 .App-link {
   color: #61dafb;
